@@ -105,7 +105,7 @@ nav a:hover
     background-repeat: no-repeat;
     background-size: 90rem;
     width: 85%;
-    height: 31rem;
+    height: 33rem;
     margin-right: 10px;
     float: right;
 }
@@ -119,9 +119,9 @@ nav a:hover
 .container
 {
     background-color: white;
-    margin-left: 13rem;
+    margin-left: 20rem;
     border-radius: 5px;
-    width: 25rem;
+    width: 40rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
 }
 
@@ -133,8 +133,10 @@ form
 input
 {
     padding: 3px;
+    width: 285px;
+    height: 25px;
     border: none;
-    background-color: rgb(217, 238, 29);
+    background-color: gainsboro;
     color: white;
     border-radius: 5px;
 }
@@ -157,7 +159,8 @@ label
 
 .login_reg
 {
-    margin: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
     padding: 10px;
 }
 
