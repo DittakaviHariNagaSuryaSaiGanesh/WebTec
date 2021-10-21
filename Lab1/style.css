@@ -1,6 +1,6 @@
 .heading
 {
-    background-color: rgb(12, 137, 240);;
+    background-color: skyblue;
     height: 100px;
     width: 100%;
 }
@@ -51,7 +51,7 @@ nav a:hover
 
 .side_nav
 {
-    background-color: rgb(12, 137, 240);
+    background-color: skyblue;
     width: 10%;
     float: left;
     margin-left: 10px;
