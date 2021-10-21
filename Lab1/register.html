@@ -16,7 +16,7 @@
     <br>
     <nav>
         <a href="index (2).html">Home</a>
-        <a href="login.html">Login/Register</a>
+        <a href="register.html">Login/Register</a>
         <a href="reputation.html">Reputation</a>
         <a href="catlog.html">Catlog</a>
         <a href="cart.html">Cart</a>
@@ -43,23 +43,52 @@
             <div class="heading_login">
                 <h2>Aditya College of Engineering and Technology</h2>
             </div>
-            <div class="container" style="width: 30rem; margin-left: 25rem;">
+            <div class="container">
                 <div class="container_heading">
-                    <h1>Login</h1>
+                    <h1>Register</h1>
                 </div>
-                <form style="padding: 10px;">
-                    <label style="margin: 15px">Email:</label><br>
-                    <div style="padding: 10px;">
-                        <input type="email" placeholder="Ex:abc@abc.com" style="width: 435px;"><br><br>
+                <form>
+                    <div style="float: right; margin-top: 0;">
+                        <label>Last Name:</label><br>
+                        <input type="text" placeholder="Last Name"><br><br>
+
+                        <label>Phone:</label><br>
+                        <input type="number" placeholder="Phone"><br><br>
+
+                        <label>Brach:</label><br>
+                        <select style="width: 190px; background-color: gainsboro; border: none; width: 285px;height: 30px; border-radius: 5px; margin-bottom: 10px;">
+                            <option>Select Your Branch</option>
+                            <option>CSE</option>
+                            <option>ECE</option>
+                            <option>MEC</option>
+                            <option>EEE</option>
+                            <option>IT</option>
+                            <option>AGRI</option>
+                            <option>CIVL</option>
+                        </select><br><br>
+
+                        <label>Confirm Password:</label><br>
+                        <input type="password" placeholder="Confirm Password"><br>
+
                     </div>
 
-                    <label style="margin: 15px;">Password:</label><br>
-                    <div style="padding: 10px;">
-                        <input type="password" placeholder="Password" style="width: 435px;"><br><br>
-                    </div>
+                    <label>First Name:</label><br>
+                    <input type="text" placeholder="First Name"><br><br>
+                    
+                    <label>Email:</label><br>
+                    <input type="email" placeholder="Ex:abc@abc.com"><br><br>
+
+                    <label>Gender:</label><br>
+                    Male:
+                    <input type="radio" name="gender" id="male" value="Male" style="width: 52px; height: 13px;"><br>
+                    Female:
+                    <input type="radio" name="gender" id="female" value="Female" style="width: 25px; height: 13px;"><br><br>
+
+                    <label>Password:</label><br>
+                    <input type="password" placeholder="Password"><br><br>
 
                     <center>
-                        <a href="#">
+                        <a href="login.html">
                             <button type="submit" style="text-align: center; background-color: rgb(12, 137, 240); border-radius: 5px;
                             color: white; font-weight: bolder; border: none; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1); padding: 8px;">
                             Submit
@@ -68,7 +97,7 @@
                     </center>
                 </form>
                 <div class="login_reg">
-                    Don't have an account?<a href="register.html"> Register</a>
+                    Already Registered?<a href="login.html"> Login</a>
                 </div>
             </div>
         </div>
